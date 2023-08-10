@@ -149,7 +149,7 @@ export default {
     axios
       .get(
         "https://my-json-server.typicode.com/ABDALLAHMETWALLY250/product/products/" +
-          this.$route.params.id
+          this.$route.params.cat
       )
       .then((res) => {
         this.product = res.data;
