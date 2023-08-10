@@ -8,7 +8,7 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/details/:id",
+    path: "/details/:cat",
     name: "details",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
